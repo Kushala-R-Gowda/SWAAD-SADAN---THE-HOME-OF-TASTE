@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "168743408183",
+    "project_id": "swaad-sadan-367ce",
+    "storage_bucket": "swaad-sadan-367ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168743408183:android:3114b747b00d3d33d725b2",
+        "android_client_info": {
+          "package_name": "com.example.swaadsadan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168743408183-83u46ia2lii5584dsna1u982dt8qeiik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swaadsadan",
+            "certificate_hash": "03dc5e0567475b311ee8eef45e017297387dce60"
+          }
+        },
+        {
+          "client_id": "168743408183-ak9v1dg6lucgspoe9o1riutq4esh4b5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkQAqsqzmWIGD35nGslyqs50R5gz-MzKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168743408183-ak9v1dg6lucgspoe9o1riutq4esh4b5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

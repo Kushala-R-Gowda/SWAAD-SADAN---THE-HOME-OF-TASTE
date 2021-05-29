@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editText_Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:textColorHint="@android:color/white"
+            android:text="900830912"
+            android:textColor="@android:color/white"
+            android:textSize="35dp"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/editText_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColorHint="@android:color/white"
+            android:text="Kushal"
+            android:textColor="@android:color/white"
+            android:textSize="35dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:textColorHint="@android:color/white"
+            android:text="123"
+            android:textColor="@android:color/white"
+            android:textSize="35dp"
+            android:inputType="textPassword" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signup"
+        android:text="SignUp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:background="@android:color/background_light"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        />
+
+
+</RelativeLayout>
